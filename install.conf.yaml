@@ -1,0 +1,11 @@
+- clean:
+    ~/:
+        force: true
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.gitconfig-work: gitconfig-work
+    ~/.gitconfig-personal: gitconfig-personal
+    ~/.zshrc: zshrc
+
+

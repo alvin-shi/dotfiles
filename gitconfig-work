@@ -1,0 +1,5 @@
+[user]
+	name = Alvin Shi
+	email = alvin.shi@rea-group.com
+[url "ssh://git@git.realestate.com.au:65422/"]
+	insteadOf = rea:
