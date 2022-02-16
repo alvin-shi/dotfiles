@@ -100,11 +100,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# REA config
-export GH_HOST=git.realestate.com.au
-export REA_AS_MFA_METHOD=OKTA_PUSH
-source "$HOME/.rea-cli/rea-shell-init.sh"
-export REA_SSM_PUBLIC_KEY=~/.ssh/id_ssm.pub
-
-# rbenv
-eval "$(rbenv init - zsh)"
+[ -e ~/.localrc ] && source ~/.localrc
