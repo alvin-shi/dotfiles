@@ -7,5 +7,7 @@
     ~/.gitconfig-work: gitconfig-work
     ~/.gitconfig-personal: gitconfig-personal
     ~/.zshrc: zshrc
-
-
+    ~/Library/Keybinding/DefaultKeyBinding.dict:
+        if: '[[ "$(uname)" == Darwin ]]'
+        path: macos/keybindings.dict
+        create: true
