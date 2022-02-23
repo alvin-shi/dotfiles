@@ -4,8 +4,8 @@
 
 - link:
     ~/.gitconfig: gitconfig
-    ~/.gitconfig-work: gitconfig-work
-    ~/.gitconfig-personal: gitconfig-personal
+    ~/.gitconfig_work: gitconfig_work
+    ~/.gitconfig_personal: gitconfig_personal
     ~/.zshrc: zshrc
     ~/Library/Keybinding/DefaultKeyBinding.dict:
         if: '[[ "$(uname)" == Darwin ]]'

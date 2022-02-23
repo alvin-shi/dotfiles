@@ -1,11 +1,11 @@
 [includeIf "gitdir:~/personal/"]
-  path = ~/.gitconfig-personal
+  path = ~/.gitconfig_personal
 [includeIf "gitdir:~/work/"]
-  path = ~/.gitconfig-work
+  path = ~/.gitconfig_work
 
 # Remove after no longer working at REA
 [includeIf "gitdir:~/rea/"]
-  path = ~/.gitconfig-work
+  path = ~/.gitconfig_work
 
 [alias]
 	plog = log --pretty=format:\"%C(auto)%h %C(cyan)%ad %C(green)%an%C(auto)%d %Creset%s\" --date=short
