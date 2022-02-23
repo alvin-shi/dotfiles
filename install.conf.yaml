@@ -6,6 +6,7 @@
     ~/.gitconfig: gitconfig
     ~/.gitconfig_work: gitconfig_work
     ~/.gitconfig_personal: gitconfig_personal
+    ~/.git_aliases: git_aliases
     ~/.zshrc: zshrc
     ~/Library/Keybinding/DefaultKeyBinding.dict:
         if: '[[ "$(uname)" == Darwin ]]'
