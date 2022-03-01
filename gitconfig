@@ -3,7 +3,7 @@
 [includeIf "gitdir:~/work/"]
   path = ~/.gitconfig_work
 [include]
-  path = ~/.git-aliases
+  path = ~/.git_aliases
 
 # Remove after no longer working at REA
 [includeIf "gitdir:~/rea/"]
