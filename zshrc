@@ -102,6 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[ -e ~/.localrc ] && source ~/.localrc
+[ -f ~/.localrc ] && source ~/.localrc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
