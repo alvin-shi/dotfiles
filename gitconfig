@@ -4,11 +4,6 @@
   path = ~/.gitconfig_work
 [include]
   path = ~/.git_aliases
-
-# Remove after no longer working at REA
-[includeIf "gitdir:~/rea/"]
-  path = ~/.gitconfig_work
-
 [pager]
 	branch = less -FRX
 	diff   = less -FRX
