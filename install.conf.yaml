@@ -1,14 +1,15 @@
 - clean:
-    ~/:
+     ~/:
         force: true
-
 - link:
+    ~/.aliases: aliases
+    ~/.config/alacritty/alacritty.toml: alacritty.toml 
+    ~/.config/zellij/config.kdl: zellij.kdl
     ~/.gitconfig: gitconfig
     ~/.gitconfig_work: gitconfig_work
     ~/.gitconfig_personal: gitconfig_personal
     ~/.git_aliases: git_aliases
     ~/.zshrc: zshrc
-    ~/.aliases: aliases
     ~/Library/Keybinding/DefaultKeyBinding.dict:
         if: '[[ "$(uname)" == Darwin ]]'
         path: macos/keybindings.dict
