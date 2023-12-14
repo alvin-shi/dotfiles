@@ -9,3 +9,4 @@ Currently contains dotfiles for:
 
 - Installation:  `$ ./install`
 - Clean symlinks: `$ ./install --only clean`
+- Fresh install programs: `$ scripts/install`
