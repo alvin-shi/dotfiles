@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# TODO: Convert this script into nix
+
+# Create .localrc if it doesn't exist
+[[ -f ~/.localrc ]] || touch ~/.localrc
+
+# Create .config directory if it doesn't exist
+[[ -d ~/.config ]] || mkdir ~/.config
+
+# Install rustup if it isn't installed
+[[ $(rustup --version) ]] || curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Download alacritty from repo
+[[ -d ~/.config/alacritty ]] || git clone https://github.com/alacritty/alacritty.git ~/.config
+
+# Download catppuccin themes from repo
+[[ -d ~/.config/alacritty/themes/catppuccin ]] || git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/themes/
+
+# Install Zellij
+cargo install --locked Zellij
