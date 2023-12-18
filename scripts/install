@@ -18,4 +18,4 @@
 [[ -d ~/.config/alacritty/themes/catppuccin ]] || git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/themes/catppuccin
 
 # Install Zellij
-cargo install --locked Zellij
+cargo install --locked zellij
