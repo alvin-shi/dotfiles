@@ -12,7 +12,7 @@
 [[ $(rustup --version) ]] || curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Download alacritty from repo
-[[ -d ~/.config/alacritty ]] || git clone https://github.com/alacritty/alacritty.git ~/.config
+[[ -d ~/.config/alacritty ]] || git clone https://github.com/alacritty/alacritty.git ~/.config/alacritty
 
 # Download catppuccin themes from repo
 [[ -d ~/.config/alacritty/themes/catppuccin ]] || git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/themes/catppuccin
