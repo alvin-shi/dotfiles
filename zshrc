@@ -6,7 +6,9 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="simple"
 
-plugins=(git)
+# Make sure to pull zsh-vi-mode to ensure this works
+# git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_CUSTOM/plugins/zsh-vi-mode
+plugins=(git zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -15,3 +17,5 @@ source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 [ -f ~/.localrc ] && source ~/.localrc
+
+eval "$(zoxide init zsh)"
