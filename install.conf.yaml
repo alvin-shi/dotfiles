@@ -1,9 +1,13 @@
+- create:
+  - ~/.config
 - clean:
      ~/:
         force: true
 - link:
     ~/.aliases: aliases
     ~/.config/alacritty/alacritty.toml: alacritty.toml 
+    ~/.config/alacritty/themes: alacritty_themes
+    ~/.config/nvim: nvim
     ~/.config/zellij/config.kdl: zellij.kdl
     ~/.gitconfig: gitconfig
     ~/.gitconfig_work: gitconfig_work

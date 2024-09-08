@@ -2,3 +2,6 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "alacritty_themes/catppuccin"]
+	path = alacritty_themes/catppuccin
+	url = https://github.com/catppuccin/alacritty.git
