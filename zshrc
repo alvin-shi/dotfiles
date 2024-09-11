@@ -6,13 +6,13 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="simple"
 
-# Make sure to pull zsh-vi-mode to ensure this works
-# git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_CUSTOM/plugins/zsh-vi-mode
-plugins=(git gh zsh-vi-mode zoxide)
+plugins=(git gh zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
 source <(fzf --zsh)
+
+source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 [ -f ~/.aliases ] && source ~/.aliases
 
