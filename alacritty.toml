@@ -4,5 +4,5 @@ import = [ "~/.config/alacritty/themes/catppuccin/catppuccin-mocha.toml" ]
   family = "JetBrainsMono Nerd Font"
 
 [font.bold]
-  family = "JetBrainsMono NF"
+  family = "JetBrainsMono Nerd Font"
   style = "Bold"
