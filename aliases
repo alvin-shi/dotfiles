@@ -1,3 +1,7 @@
 # Docker
 alias dk="docker"
 alias dkc="docker compose"
+
+# cli
+alias vim="nvim"
+alias cat="bat --paging=never"
