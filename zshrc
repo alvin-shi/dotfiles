@@ -6,6 +6,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="simple"
 
+# Ensure linuxbrew is set up properly
+[[ $(uname) == "Linux" ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 plugins=(git gh zoxide)
 
 source $ZSH/oh-my-zsh.sh
