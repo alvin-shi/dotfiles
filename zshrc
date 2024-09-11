@@ -12,9 +12,9 @@ plugins=(git gh zsh-vi-mode zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
-[ -f ~/.aliases ] && source ~/.aliases
+source <(fzf --zsh)
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.aliases ] && source ~/.aliases
 
 [ -f ~/.localrc ] && source ~/.localrc
 
