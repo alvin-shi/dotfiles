@@ -8,7 +8,7 @@ ZSH_THEME="simple"
 
 # Make sure to pull zsh-vi-mode to ensure this works
 # git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_CUSTOM/plugins/zsh-vi-mode
-plugins=(git gh zsh-vi-mode)
+plugins=(git gh zsh-vi-mode zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -18,4 +18,3 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.localrc ] && source ~/.localrc
 
-eval "$(zoxide init zsh)"
