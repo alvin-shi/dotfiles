@@ -12,7 +12,12 @@ return {
       require "configs.lspconfig"
     end,
   },
-
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "md" },
+    build = function() vim.fn["mkdp#util#install"]() end,
+  },
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
