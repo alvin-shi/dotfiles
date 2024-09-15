@@ -6,7 +6,11 @@ M.ui = { theme = 'catppuccin' }
 
 M.mason = { 
   cmd = true,
-  pkgs = {'yaml-language-server'}
+  pkgs = {
+    'yaml-language-server',
+    'typescript-language-server',
+    'ruby-lsp',
+  }
 }
 
 return M
