@@ -1,16 +1,21 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = { theme = 'catppuccin' }
+M.base46 = {
+  theme = "jabuti",
+  transparency = true,
+}
 -- M.plugins = 'plugins'
 
-M.mason = { 
+M.mason = {
   cmd = true,
   pkgs = {
-    'yaml-language-server',
-    'typescript-language-server',
-    'ruby-lsp',
-  }
+    "yaml-language-server",
+    "typescript-language-server",
+    "ruby-lsp",
+    "stylua",
+    "prettier",
+  },
 }
 
 return M
