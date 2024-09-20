@@ -4,6 +4,7 @@
      ~/:
         force: true
 - link:
+    ~/.aerospace.toml: aerospace.toml
     ~/.aliases: aliases
     ~/.config/alacritty/alacritty.toml: alacritty.toml 
     ~/.config/alacritty/themes: alacritty_themes
