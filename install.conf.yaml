@@ -14,6 +14,7 @@
     ~/.gitconfig_personal: gitconfig_personal
     ~/.git_aliases: git_aliases
     ~/.zshrc: zshrc
+    ~/Brewfile:
     ~/Library/Keybinding/DefaultKeyBinding.dict:
         if: '[[ "$(uname)" == Darwin ]]'
         path: macos/keybindings.dict
