@@ -1,5 +1,9 @@
 [alias]
 	plog = log --pretty=format:\"%C(auto)%h %C(cyan)%ad %C(green)%an%C(auto)%d %Creset%s\" --date=short
+  ca = commit --amend
+  cm = commit -m
   co = checkout
   cob = checkout -b
+  ds = diff --staged
+  puu = push -u origin
   s = status
