@@ -5,3 +5,4 @@ alias dkc="docker compose"
 # cli
 alias vim="nvim"
 alias cat="bat --paging=never"
+alias ls="eza"
