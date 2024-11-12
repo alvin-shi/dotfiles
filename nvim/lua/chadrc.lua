@@ -15,6 +15,7 @@ M.mason = {
     "ruby-lsp",
     "stylua",
     "prettier",
+    "bashls",
   },
 }
 
