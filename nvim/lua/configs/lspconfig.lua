@@ -17,6 +17,7 @@ lspconfig.ts_ls.setup {
   on_init = on_init,
   on_attach = on_attach,
   capabilities = capabilities,
+  single_file_mode = false,
 }
 
 lspconfig.ruby_lsp.setup {
