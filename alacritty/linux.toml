@@ -1,0 +1,4 @@
+import = [ "~/.config/alacritty/base.toml" ]
+
+[font]
+size = 10 # Linux ppi requires smaller font

@@ -3,11 +3,21 @@
 - clean:
      ~/:
         force: true
+     ~/.config/alacritty:
+       force: true
+- link:
+    ~/.config/alacritty/alacritty.toml:
+      path: alacritty/linux.toml
+      if: '[[ `uname` =~ Linux ]]'
+- link:
+    ~/.config/alacritty/alacritty.toml:
+      path: alacritty/mac.toml
+      if: '[[ `uname` =~ Darwin ]]'
 - link:
     ~/.aerospace.toml: aerospace.toml
     ~/.aliases: aliases
-    ~/.config/alacritty/alacritty.toml: alacritty.toml 
-    ~/.config/alacritty/themes: alacritty_themes
+    ~/.config/alacritty/base.toml: alacritty/base.toml 
+    ~/.config/alacritty/themes: alacritty/themes
     ~/.config/nvim: nvim
     ~/.config/zellij/config.kdl: zellij.kdl
     ~/.gitconfig: gitconfig
