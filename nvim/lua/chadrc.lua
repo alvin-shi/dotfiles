@@ -15,7 +15,8 @@ M.mason = {
     "ruby-lsp",
     "stylua",
     "prettier",
-    "bashls",
+    "bash-language-server",
+    "deno",
   },
 }
 
