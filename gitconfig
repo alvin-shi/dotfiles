@@ -7,3 +7,5 @@
 [pager]
 	branch = less -FRX
 	diff   = less -FRX
+[core]
+  editor = nvim
