@@ -1,0 +1,10 @@
+import = [ "~/.config/alacritty/base.toml" ]
+
+[window]
+option_as_alt = "Both"
+dynamic_title = false
+decorations = "Buttonless"
+
+[font]
+size = 12
+
