@@ -1,33 +1,24 @@
 local configs = require "nvchad.configs.lspconfig"
-local on_init = configs.on_init
-local on_attach = configs.on_attach
-local capabilities = configs.capabilities
+local util = require "lspconfig.util"
 
-local lspconfig = require "lspconfig"
--- TODO: clean up config by following
--- https://nvchad.com/docs/recipes
-
-lspconfig.yamlls.setup {
-  on_init = on_init,
-  on_attach = on_attach,
-  capabilities = capabilities,
+local servers = {
+  yamlls = {},
+  ruby_lsp = {},
+  bashls = {},
+  denols = {
+    root_dir = util.root_pattern("deno.json", "deno.jsonc"),
+  },
+  ts_ls = {
+    root_dir = util.root_pattern("tsconfig.json", "jsconfig.json", "package.json"),
+    single_file_support = false,
+  },
 }
 
-lspconfig.ts_ls.setup {
-  on_init = on_init,
-  on_attach = on_attach,
-  capabilities = capabilities,
-  single_file_mode = false,
-}
+for name, opts in pairs(servers) do
+  -- Add config functions to opts
+  opts.on_init = configs.on_init
+  opts.on_attach = configs.on_attach
+  opts.capabilities = configs.capabilities
 
-lspconfig.ruby_lsp.setup {
-  on_init = on_init,
-  on_attach = on_attach,
-  capabilities = capabilities,
-}
-
-lspconfig.bashls.setup {
-  on_init = on_init,
-  on_attach = on_attach,
-  capabilities = capabilities,
-}
+  require("lspconfig")[name].setup(opts)
+end
