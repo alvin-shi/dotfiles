@@ -26,6 +26,8 @@ outer.top =        0
 outer.right =      0
 
 [mode.main.binding]
+alt-enter = 'fullscreen'
+
 alt-slash = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
 
