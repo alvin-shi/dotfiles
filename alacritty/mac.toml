@@ -1,4 +1,4 @@
-import = [ "~/.config/alacritty/base.toml" ]
+general.import = [ "~/.config/alacritty/base.toml" ]
 
 [window]
 option_as_alt = "Both"
