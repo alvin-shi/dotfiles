@@ -13,6 +13,7 @@ brew "jq"
 brew "libpq", link: true
 brew "neofetch"
 brew "neovim"
+brew "nushell"
 brew "pgcli"
 brew "ruby-build"
 brew "rbenv"
