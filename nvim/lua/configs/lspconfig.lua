@@ -12,6 +12,7 @@ local servers = {
     root_dir = util.root_pattern("tsconfig.json", "jsconfig.json", "package.json"),
     single_file_support = false,
   },
+  rust_analyzer = {},
 }
 
 for name, opts in pairs(servers) do
