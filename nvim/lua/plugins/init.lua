@@ -21,6 +21,10 @@ return {
     end,
     ft = { "markdown" },
   },
+  {
+    "echasnovski/mini.animate",
+    version = "*",
+  },
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
