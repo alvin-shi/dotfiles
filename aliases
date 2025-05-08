@@ -1,6 +1,7 @@
 # Docker
 alias dk="docker"
 alias dkc="docker compose"
+alias dkcrr="docker compose run --rm"
 
 # cli
 alias vim="nvim"
