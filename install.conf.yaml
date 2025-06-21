@@ -1,5 +1,7 @@
 - create:
   - ~/.config
+  - ~/.config/alacritty
+  - ~/.config/zellij
 - clean:
      ~/:
         force: true
@@ -9,12 +11,16 @@
     ~/.config/alacritty/alacritty.toml:
       path: alacritty/linux.toml
       if: '[[ `uname` =~ Linux ]]'
+      create: true
 - link:
     ~/.config/alacritty/alacritty.toml:
       path: alacritty/mac.toml
       if: '[[ `uname` =~ Darwin ]]'
+      create: true
 - link:
-    ~/.aerospace.toml: aerospace.toml
+    ~/.aerospace.toml:
+        if: '[[ "$(uname)" == Darwin ]]'
+        path: aerospace.toml 
     ~/.aliases: aliases
     ~/.config/alacritty/base.toml: alacritty/base.toml 
     ~/.config/alacritty/themes: alacritty/themes
