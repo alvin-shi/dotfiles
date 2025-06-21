@@ -1,4 +1,3 @@
-tap "homebrew/bundle"
 tap "nikitabobko/tap"
 brew "adr-tools"
 brew "bash"
