@@ -10,3 +10,4 @@
   plog = log --pretty=format:\"%C(auto)%h %C(cyan)%ad %C(green)%an%C(auto)%d %Creset%s\" --date=short
   puu = !git push -u origin \"$(git rev-parse --abbrev-ref HEAD)\" # https://superuser.com/a/1632310
   s = status
+  ss = stash --staged
