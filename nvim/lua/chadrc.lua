@@ -2,7 +2,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "jabuti",
+  theme = "ayu_dark",
   transparency = true,
 }
 -- M.plugins = 'plugins'
