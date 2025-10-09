@@ -1,4 +1,4 @@
-general.import = [ "~/.config/alacritty/themes/catppuccin/catppuccin-mocha.toml" ]
+general.import = [ "~/.config/alacritty/themes/themes/catppuccin_mocha.toml" ]
 
 [window]
 opacity = 0.80
