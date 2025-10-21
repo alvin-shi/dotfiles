@@ -8,10 +8,7 @@ local servers = {
   denols = {
     root_dir = util.root_pattern("deno.json", "deno.jsonc"),
   },
-  ts_ls = {
-    root_dir = util.root_pattern("tsconfig.json", "jsconfig.json", "package.json"),
-    single_file_support = false,
-  },
+  ts_ls = {},
   rust_analyzer = {},
 }
 
