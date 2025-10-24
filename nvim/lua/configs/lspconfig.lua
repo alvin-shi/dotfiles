@@ -10,6 +10,7 @@ local servers = {
   },
   ts_ls = {},
   rust_analyzer = {},
+  gopls = {},
 }
 
 for name, opts in pairs(servers) do
