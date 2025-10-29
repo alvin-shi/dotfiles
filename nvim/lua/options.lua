@@ -1,6 +1,8 @@
 require "nvchad.options"
 
--- add yours here!
+-- snippets
+require("luasnip").filetype_extend("typescript", { "javascript" })
 
--- local o = vim.o
--- o.cursorlineopt ='both' -- to enable cursorline!
+-- editor
+local set = vim.opt
+set.cc = { "81", "121" }
