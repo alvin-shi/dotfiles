@@ -10,3 +10,5 @@ map("n", "OO", "O<ESC>", { desc = "Add empty line above without leaving normal m
 map("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+map({ "n", "x", "o" }, "s", "<Plug>(leap)")
+map("n", "S", "<Plug>(leap-from-window)")
