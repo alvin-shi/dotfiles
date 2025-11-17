@@ -9,3 +9,5 @@
 	diff   = less -FRX
 [core]
   editor = nvim
+[init]
+	defaultBranch = main
