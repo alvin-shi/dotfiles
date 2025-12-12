@@ -12,6 +12,8 @@ plugins=(git gh zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
+autoload -Uz compinit && compinit
+
 source <(fzf --zsh)
 
 source <(deno completions zsh)
