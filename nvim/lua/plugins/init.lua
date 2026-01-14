@@ -21,7 +21,7 @@ return {
   },
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = { ensure_installed = { "ruby" } },
+    opts = { ensure_installed = { "ruby", "bash" } },
   },
   {
     "ggandor/leap.nvim",
