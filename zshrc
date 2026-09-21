@@ -4,6 +4,9 @@ export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Set default editor for terminal
+export EDITOR=nvim
+
 ZSH_THEME="simple"
 
 # Ensure linuxbrew is set up properly
