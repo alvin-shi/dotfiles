@@ -2,7 +2,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "ayu_dark",
+  theme = "catppuccin",
   transparency = true,
 }
 -- M.plugins = 'plugins'
@@ -12,11 +12,8 @@ M.mason = {
   pkgs = {
     "yaml-language-server",
     "typescript-language-server",
-    "ruby-lsp",
     "stylua",
-    "prettier",
     "bash-language-server",
-    "deno",
   },
 }
 
