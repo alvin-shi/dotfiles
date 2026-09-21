@@ -8,3 +8,8 @@ decorations = "Buttonless"
 [font]
 size = 12
 
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
