@@ -24,7 +24,7 @@ return {
     opts = { ensure_installed = { "ruby", "bash" } },
   },
   {
-    url = "https://codeberg.org/andyg/leap.nvim"
+    url = "https://codeberg.org/andyg/leap.nvim",
     lazy = false,
     opts = {},
   },
