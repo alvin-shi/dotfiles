@@ -6,3 +6,4 @@ ui {
   }
 }
 
+pane_frame_style "full"
